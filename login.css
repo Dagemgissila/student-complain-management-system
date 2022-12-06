@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.stud-login{
+    background-image: url(image/400088200650_444958.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position:center;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: dagem;
+    animation-duration: 14s;
+    animation-delay:0s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+
+}
+@keyframes dagem{
+    0% {background-image: url("image/best\ 2.jpg");}
+    25% {background-image: url("image/best\ 3.jpg");}
+    50% {background-image: url("image/best\ 5.jpg");}
+    75% {   background-image:url("image/best\ 1.jpg");}
+    100% {background-image: url("image/best\ 4.jpg");}
+} 
+.container-form{
+    width:500px;
+    margin:auto;
+    background-color: rgba(0,0,0,0.5);
+    padding:10px;
+    position: relative;
+    border-radius: 15px;
+    box-shadow:10px 10px 10px white;
+}
+
+  
+.header{
+    text-align: center;
+    padding-top:30px;
+}.header h1{
+    color:white;
+    font-size: 45px;
+    margin-bottom:30px;
+}.form-div{
+    text-align: center;
+}.main ,input{
+    width:250px;
+    height:30px;
+    margin-top: 10px;
+    outline: none;
+    border-radius: 5px;
+    padding:15px;
+}.form-div,label{
+      font-size: 25px;
+      width:50;
+      color:white;
+      font-weight: bold;
+      
+}
+.input-span,button{
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding:10px 40px;
+ 
+}
+#forget{
+    font-size: 25px;
+    
+}#login-button{
+    background-color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    border-radius: 7px;
+    cursor: pointer;
+    border:2px solid white;
+    
+
+}#login-button:hover{
+
+    box-shadow: 5px 5px 5px white;
+    
+}
+#register-button:hover{
+
+    box-shadow: 5px 5px 5px white;
+    
+}#register-button{
+    background-color:#333;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    border-radius: 7px;
+    cursor: pointer; 
+    border:2px solid white;
+}#register-button a{
+    color: white;
+} #login-button a{
+    color:white;
+}
+ /* @media (max-width:700px)
+ {
+    .info-container-last{
+        display: grid;
+        grid-template-columns: repeat(1 1fr);
+    }
+    .form-div,label{
+        font-size: 25px;
+        width:50;
+        color:white;
+        font-weight: bold;
+        
+  }
+  #login-button{
+    background-color: #333;
+    font-size: 15px;
+}
+#register-button{
+    font-size:15px;
+}
+.header h1{
+    
+    font-size: 35px;
+
+}
+footer h1{
+    font-size: 20px;
+}
+ } 
+@media (max-width:1000px){
+    .info-container-last{
+        display: grid;
+        grid-template-columns: repeat(2 1fr);
+    }
+
+}  */

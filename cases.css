@@ -1,0 +1,157 @@
+#case-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top:30px;
+    margin-bottom: 20px;
+    
+}
+#case-nav{
+    width:21%;
+     background-color: #333;
+     padding:15px 20px;
+     border-radius: 15px;
+     margin:0 0 15px 5px;
+    
+}#case-head{
+    text-align: center;
+    padding:14px;
+
+}#case-head,h2{
+    color:white;
+    font-size: 30px;
+    
+}
+#case-description{
+    width:74%;
+}#case-nav ul{
+    list-style-type: none;
+    
+
+}#case-nav ul li{
+    padding:10px 0px;
+    width: 100%;
+}#case-nav ul li a{
+    color:white;
+      width: 100%;
+      display: inline-block;
+    padding:20px 10px;
+    font-size: 25px;
+}#case-nav ul li a:hover{
+    background-color:#f1f1f1;
+    color:black;
+    border-radius: 10px;
+}
+
+.pass-input{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+
+}
+
+   
+       .row input[type=text] , select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  
+}
+fieldset{
+  border: 3px solid black;
+  padding:40px;
+}
+fieldset legend{
+  font-weight: bold;
+  margin-left:20px;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-weight: bold;
+}input[type=submit] {
+  background-color:#333;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float:left;
+  position: relative;
+  left:200px;
+  margin: 15px;
+  
+}input[type=submit]:hover {
+  background-color:rgb(43, 86, 226);
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding:55px;
+  width:63%;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 5em;
+}.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ /* @media screen and (max-width: 700px) {
+  .col-25, .col-75 {
+    width: 100%;
+    margin-top: 0;
+  }
+  .container{
+    width:100%;
+  }
+  #case-head h2{
+    font-size: 15px;
+  }
+  #case-nav ul li a{
+    font-size:20px;
+  }
+  #case-container{
+    width:100%;
+  }
+  .info-container-last{
+    display: grid;
+    grid-template-columns: repeat(1 1fr);
+}
+footer h1{
+  font-size: 20px;
+}
+} 
+
+ @media screen and (max-width: 1000px)
+{
+  #case-head h2{
+    font-size: 25px;
+  }
+  .container{
+    width:100%;
+  }
+  .info-container-last{
+    display: grid;
+    grid-template-columns: repeat(1 1fr);
+}
+footer h1{
+  font-size: 20px;
+}
+} 
+   */
